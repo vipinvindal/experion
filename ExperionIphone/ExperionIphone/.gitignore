@@ -1,7 +1,0 @@
-.DS_Store
-build/*
-*.xcuserdatad
-*.xcuserstate
-project.xcworkspace/
-xcuserdata/
-*.pbxuser
