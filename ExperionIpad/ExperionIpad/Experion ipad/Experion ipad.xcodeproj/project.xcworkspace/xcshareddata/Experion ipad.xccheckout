@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C186FDD-2151-48B8-A88D-10DC938A6D9B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Experion ipad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E170BF32-14C2-441E-A4FC-F345928CB7EA</key>
+		<string>http://192.168.3.133/svn/projectrepo/trunk/Apple/Mudra/ExperionIpad</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Experion ipad/Experion ipad.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E170BF32-14C2-441E-A4FC-F345928CB7EA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>E170BF32-14C2-441E-A4FC-F345928CB7EA</key>
+		<string>http://192.168.3.133/svn/projectrepo</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.3.133/svn/projectrepo/trunk/Apple/Mudra/ExperionIpad/Experion%20ipad/Experion%20ipad.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E170BF32-14C2-441E-A4FC-F345928CB7EA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E170BF32-14C2-441E-A4FC-F345928CB7EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ExperionIpad</string>
+		</dict>
+	</array>
+</dict>
+</plist>

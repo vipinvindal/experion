@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DisclaimerViewController">
+            <connections>
+                <outlet property="disclaimerText" destination="u78-0x-nLc" id="O5C-0p-Sl6"/>
+                <outlet property="flexiWidth" destination="mda-K6-LJS" id="I1e-ji-VCE"/>
+                <outlet property="toolbar" destination="27e-JF-u5b" id="Fez-Hu-4rY"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="yBP-Lu-iC8">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="20"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="27e-JF-u5b">
+                    <rect key="frame" x="0.0" y="19" width="768" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <items>
+                        <barButtonItem style="plain" id="ISD-uo-syL"/>
+                        <barButtonItem width="684" style="plain" systemItem="fixedSpace" id="mda-K6-LJS"/>
+                        <barButtonItem title="Done" width="50" id="jhx-kF-w5s">
+                            <connections>
+                                <action selector="dismissView" destination="-1" id="28l-75-IjO"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </toolbar>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nS7-rK-WuM">
+                    <rect key="frame" x="0.0" y="33" width="768" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="u78-0x-nLc">
+                    <rect key="frame" x="10" y="63" width="748" height="949"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                    <attributedString key="attributedText">
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="License ‘The Westerlies’">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">DGTCP, Haryana has granted Licence no. 57 dated 11.7.2013 to few land owners c/o Experion Developers Pvt. Ltd. "Developer" for development of a residential plotted colony on 100.48125 acres land situated in Sector – 108, Gurgaon. As per the approved layout plan of the colony, there are 770 residential plots including 157 EWS plots, 2 commercial plots and a provision of 2 Nursery Schools, 2 Primary Schools, 1 Taxi stand and 2 Nursing Homes. Approvals can be checked in the office of the Developer. Layout plan can be amended at any time by the Developer subject to the provisions of applicable laws. </string>
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="16" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="License ‘Windchants’">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">This group housing colony project in Sector – 112, Gurgaon is duly approved / licenced by the office of Director General, Town &amp; Country Planning Deptt., Haryana vide Licence no. 21 of 2008 dtd. 8.2.2008 &amp; 28 of 2012 dtd. 7.4.2012 for 21.55 acres and 1.881 acres respectively (Total licenced area = 23.431 acres).  Building plans approved vide DGTCP office memo no.: ZP-595/JD(BS)/2012/9781 dtd. 7.6.2012 for 563 main dwelling units, 100 EWS units, convenient shopping, 1 no. nursery school and community centre / community building having facilities at par with that of a club.  All the approvals can be checked in the office of the Developer. The developer reserves the right to get the approved building plans revised at any stage till completion of the buildings as per prevailing government norms. Name of Developer: Experion Developers Pvt. Ltd. (Formerly Gold Developers Pvt. Ltd.) </string>
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="16" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="15" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="License ‘The Heartsong’">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">This group housing colony project in Sec-108, Gurgaon is duly approved / licenced by the office of Director General, Town &amp; Country Planning Deptt., Haryana vide licence No. 38 of 2010 dt. 14.5.2010 for 15.025 Acres. Building plans approved vide DGTCP office memo no. ZP-753/JD(BS)/ 2012/18512 dt.18.9.2012 for 811 main dwelling units, 144 EWS units, convenient shopping, 2 nos. nursery schools and community centre / community building having facilities at par with that of a club. All the approvals can be checked in the office of the Developer. The Developer reserves the right to get the approved building plans revised at any stage till completion of the project as per prevailing government norms. Name of Developer: Experion Developers Pvt. Ltd. </string>
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="16" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Disclaimer">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content=":">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="15" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">All plans, specifications, artistic renderings and images as shown are only indicative and are subject to change as may be decided by the company or directed by any competent authority in the best interests of the development. Soft furnishing, furniture and gadgets do not form a part of the offering.   </string>
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="16" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="16" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="                                 ">
+                            <attributes>
+                                <color key="NSColor" red="0.1215686275" green="0.34901960780000002" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="16" name="Helvetica"/>
+                                <integer key="NSLigature" value="0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                    <tabStops>
+                                        <textTab alignment="left" location="26.450000762939453"/>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+        </view>
+    </objects>
+</document>
